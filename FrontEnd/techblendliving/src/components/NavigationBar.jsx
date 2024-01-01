@@ -97,39 +97,39 @@ export function NavigationBar() {
               {/* <LinkContainer to="/registrationowner">
                 <Nav.Link>Registration Owner</Nav.Link>
               </LinkContainer> */}
-              <div className="nav-pad">
-              <LinkContainer   to="/dashboard">
-                <Nav.Link style={{ display: 'inline-block' }} >Owner Section</Nav.Link>
-              </LinkContainer>
-              </div>
+               {/* <div className="nav-pad">
+                <LinkContainer   to="/dashboard">
+                 <Nav.Link style={{ display: 'inline-block' }} >Owner Section</Nav.Link>
+                </LinkContainer> 
+               </div>  */}
               <div className="nav-pad">
               <LinkContainer  to="/contactus">
                 <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
               </div>
-              <div className="nav-pad">
+              {/* <div className="nav-pad">
               <LinkContainer  to="/host">
                 <Nav.Link>Host</Nav.Link>
               </LinkContainer>
-              </div>
-              <div className="nav-pad ">
+              </div> */}
+              {/* <div className="nav-pad ">
               <LinkContainer  to="/userview">
                 <Nav.Link>User View</Nav.Link>
               </LinkContainer>
-              </div>
+              </div> */}
               <div className="nav-pad">
               <LinkContainer  to="/aboutus">
                 <Nav.Link>About Us</Nav.Link>
               </LinkContainer>
-              <LinkContainer  to="/properties">
+              {/* <LinkContainer  to="/properties">
                 <Nav.Link>Properties</Nav.Link>
-              </LinkContainer>
+              </LinkContainer> */}
               </div>
-              <div className="nav-pad">
+              {/* <div className="nav-pad">
               <LinkContainer  to="/services">
                 <Nav.Link>Service View</Nav.Link>
               </LinkContainer>
-              </div>
+              </div> */}
               <Nav>
               {isLoggedIn ? (
                 <Button variant="light" onClick={handleLogout}>
@@ -138,7 +138,7 @@ export function NavigationBar() {
               ) : (
                 <>
                   <LinkContainer to="/login">
-                    <Nav.Link>Login</Nav.Link>
+                    <Nav.Link>.</Nav.Link>
                   </LinkContainer>
                   {/* Add other login-related links if needed */}
                 </>

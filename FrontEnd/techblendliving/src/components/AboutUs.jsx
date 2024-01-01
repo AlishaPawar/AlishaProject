@@ -58,7 +58,7 @@ export function AboutUs() {
 
                                             <div className="container mt-4 text-left" style={{ paddingLeft: '10%' }}>
                                                 <h3 style={{ cursor: 'pointer', transition: 'color 0.3s', textAlign: "left", margin: '0' }} className="team-member-name">
-                                                    Alisha Pawar (Gadhi)
+                                                    Alisha Pawar
                                                 </h3><br></br>
                                                 <p style={{ margin: '0' }}>
                                                     Alisha is a passionate and dedicated team member. With a keen interest in technology, she brings creativity and innovation to our projects.
@@ -66,7 +66,7 @@ export function AboutUs() {
                                                     Alisha's attention to detail and problem-solving skills make her an invaluable asset to our team, contributing to the seamless execution of our projects.
                                                     <br></br>
                                                     Phone-No. - 7754829321,<br></br>
-                                                    Email - Alisha123@gmail.com
+                                                    Email - alisha123@gmail.com
                                                 </p>
                                                 {/* <div className="social-icons" style={{ display: 'flex', alignItems: 'center' }}> */}
                                                 <a href="#" className="BsLinkedin">
@@ -104,7 +104,7 @@ export function AboutUs() {
                                                     with the latest industry trends and technologies allows him to bring cutting-edge ideas to the table, contributing to the success of our tech-driven initiatives.<br></br>
                                                     Details: <br></br>
                                                     Phone-No. - 9954829321,<br></br>
-                                                    Email - Mehul723@gmail.com<br></br>
+                                                    Email - mehul723@gmail.com<br></br>
                                                 </p>
                                                 {/* <div className="social-icons" style={{ display: 'flex', alignItems: 'center' }}> */}
                                                 <a href="#" className="BsLinkedin">
@@ -144,7 +144,7 @@ export function AboutUs() {
 
                                                     Details: <br></br>
                                                     Phone-No. - 9154829321,<br></br>
-                                                    Enail- Prasad123@gmail.com</p>
+                                                    Enail- prasad123@gmail.com</p>
                                                 {/* <div className="social-icons" style={{ display: 'flex', alignItems: 'center' }}> */}
                                                 <a href="#" className="BsLinkedin">
                                                     <BsLinkedin className="linkedin-icon" />
@@ -182,7 +182,7 @@ export function AboutUs() {
 
                                                     Details: <br></br>
                                                     Phone-No. - 93543291321,<br></br>
-                                                    Enail- Shwetal657@gmail.com</p>
+                                                    Enail- shwetal657@gmail.com</p>
                                                 {/* <div className="social-icons" style={{ display: 'flex', alignItems: 'center' }}> */}
                                                 <a href="#" className="BsLinkedin">
                                                     <BsLinkedin className="linkedin-icon" />
@@ -220,7 +220,7 @@ export function AboutUs() {
 
                                                     Details:<br></br>
                                                     Phone-No. - 7754995421,<br></br>
-                                                    Email- Shoeb8667@gmail.com<br></br>
+                                                    Email- shoeb8667@gmail.com<br></br>
                                                 </p>
                                                 {/* <div className="social-icons" style={{ display: 'flex', alignItems: 'center' }}> */}
                                                 <a href="#" className="BsLinkedin">

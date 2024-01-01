@@ -28,6 +28,9 @@ export function UserView() {
   const handleService=()=>{
             navigate(`/services`) 
   }
+  const handleProperty=()=>{
+    navigate(`/properties`) 
+}
 
   useEffect(() => {
     populateData();
@@ -109,7 +112,7 @@ export function UserView() {
                   <Card.Text>
                     properties
                   </Card.Text>
-                  <Button style={{ backgroundColor: "#D8232A" }}>Show Properties</Button>
+                  <Button style={{ backgroundColor: "#D8232A" }} onClick={handleProperty} >Show Properties</Button>
                 </Card.Body>
               </Card>
             </Col>
